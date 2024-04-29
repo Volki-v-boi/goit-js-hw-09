@@ -1,0 +1,44 @@
+.feedback-form {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 4px;
+}
+
+.feedback-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.feedback-form input[type='email'],
+.feedback-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0 15px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+.feedback-form button {
+  border: none;
+  background: #4e75ff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.feedback-form button:hover {
+  background: #6c8cff;
+}
