@@ -16,7 +16,7 @@ document.querySelector('.feedback-form').addEventListener('input', event => {
     event.target.type === 'email' ||
     event.target.tagName.toLowerCase() === 'textarea'
   ) {
-    formData[event.target.name] = event.target.value;
+    formData[event.target.name] = event.target.value.trim();
     localStorage.setItem('feedback-form-state', JSON.stringify(formData));
   }
 });
@@ -32,4 +32,5 @@ document.querySelector('.feedback-form').addEventListener('submit', event => {
     alert('Будь ласка заповніть всі поля');
   }
 });
+
 //============================================================
