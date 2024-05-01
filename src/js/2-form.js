@@ -28,6 +28,8 @@ document.querySelector('.feedback-form').addEventListener('submit', event => {
     localStorage.removeItem('feedback-form-state');
     document.querySelector('input[name="email"]').value = '';
     document.querySelector('textarea[name="message"]').value = '';
+    formData.email = '';
+    formData.message = '';
   } else {
     alert('Будь ласка заповніть всі поля');
   }
